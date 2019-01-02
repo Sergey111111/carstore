@@ -28,9 +28,10 @@
               :adv="this.advs[1]"
             ></car-info>
             <add-car
-              v-else-if="state ='addCar'"
+              v-else-if="state =='addCar'"
 
             ></add-car>
+            <div v-else-if="state =='void'"></div>
           </div>
         </div>
       </div>
