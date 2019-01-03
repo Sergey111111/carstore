@@ -11,27 +11,27 @@
       </div>
     </div>
     <div class="menu">
-      <ul class="nav sidebar-nav">
-        <li class="sidebar-brand">
-          <a href="#">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">
             Profile
           </a>
         </li>
-        <li>
-          <a href="#"
+        <li class="nav-item">
+          <a  class="nav-link" href="#"
              @click="$emit('add')"
           >Add new</a>
         </li>
-        <li>
-          <a href="#">Messages</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Messages</a>
         </li>
-        <li>
-          <a href="#"
+        <li class="nav-item">
+          <a class="nav-link" href="#"
              @click="$emit('showAll')"
           >Top advs</a>
         </li>
-        <li>
-          <a href="#"
+        <li class="nav-item">
+          <a class="nav-link" href="#"
              @click="$emit('logOut')"
           >Log out</a>
         </li>

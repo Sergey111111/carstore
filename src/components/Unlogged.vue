@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid">
     <p>Google authorization required </p>
-    <ul class="nav sidebar-nav">
-      <li class="sidebar-brand alert-warning">
-        <a href="#"
+    <ul class="nav flex-column">
+      <li class="nav-item ">
+        <a class="nav-link" href="#"
            @click="$emit('authorize')">
           Log-in
         </a>
@@ -19,5 +19,8 @@
 </script>
 
 <style scoped>
-
+  .nav-item {
+    border: #31a1ff 2px solid;
+    border-radius: 5px;
+  }
 </style>

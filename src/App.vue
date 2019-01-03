@@ -121,5 +121,6 @@
 <style scoped>
   .container {
     background: aliceblue;
+    padding: 40px;
   }
 </style>

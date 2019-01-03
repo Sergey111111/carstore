@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <div class="car-info">
     <div>
       <p> Advertisement #{{adv.id}} created by {{adv.user}}</p>
       <article>{{adv.text}}</article>
@@ -46,5 +46,7 @@
 </script>
 
 <style scoped>
-
+  .car-info {
+    margin-bottom: 40px;
+  }
 </style>
